@@ -95,7 +95,7 @@ lists:
       - value 1
       - value 2
 expansion_rules:
-  rule: body of the rule
+  rule: "body of the rule"
 ```
 
 Sentences have a special `in/out` form as well, which lets you say one thing (`in`) but put something else in the transcript (`out`).
@@ -168,7 +168,7 @@ sentences:
   - turn on <the> light
   - turn off <the> light
 expansion_rules:
-  the: [the|my]
+  the: "[the|my]"
 ```
 
 lets you say "turn on light" or "turn off my light" without having to repeat the optional part.
